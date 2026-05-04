@@ -1,11 +1,11 @@
 {
-    "bot_token": "YOUR_BALE_TOKEN",
-    "admin_id": 123456,
-    "channel_id": "bale_channel_id",
-    "channel_link": "",
-    "ad_text": "📢",
-    "ad_link": "",
-    "timezone": "Asia/Tehran",
-    "eitaa_token": "YOUR_EITAA_TOKEN",
-    "eitaa_channel_id": "eitaa_channel_id"
+  "bot_token": "YOUR_BALE_TOKEN",
+  "admin_id": 123456,
+  "channel_id": "bale_channel_id",
+  "channel_link": "ble.ir/join/HaifASLDFZ",
+  "ad_text": "📢━━━━━━━━━━━━━━━━━━━━━━\n📢 قیمت جهانی رو از دست نده گلد چی(ضد فیلتر)\n🔗 ble.ir/join/HaifASLDFZ\n🔗 @GoldChi\n━━━━━━━━━━━━━━━━━━━━━━",
+  "ad_link": "@GoldChi",
+  "timezone": "Asia/Tehran",
+  "eitaa_token": "YOUR_EITAA_TOKEN",
+  "eitaa_channel_id": "eitaa_channel_id"
 }
