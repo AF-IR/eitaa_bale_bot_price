@@ -2,7 +2,7 @@ name: Price Bot - Unified
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/3000000 * * * *'
   workflow_dispatch:
 
 jobs:
