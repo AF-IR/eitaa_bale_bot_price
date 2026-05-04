@@ -1,0 +1,30 @@
+name: Price Bot - Unified
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: pip install requests pytz
+    
+    - name: Run Unified Bot
+      env:
+        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        ADMIN_ID: ${{ secrets.ADMIN_ID }}
+        CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+        EITAA_BOT_TOKEN: ${{ secrets.EITAA_BOT_TOKEN }}
+        EITAA_CHANNEL_ID: ${{ secrets.EITAA_CHANNEL_ID }}
+      run: python bot_unified.py
