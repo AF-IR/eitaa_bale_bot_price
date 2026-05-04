@@ -27,4 +27,4 @@ jobs:
         CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
         EITAA_BOT_TOKEN: ${{ secrets.EITAA_BOT_TOKEN }}
         EITAA_CHANNEL_ID: ${{ secrets.EITAA_CHANNEL_ID }}
-      run: python bot_unified.py
+      run: python bot.py
